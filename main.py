@@ -179,4 +179,4 @@ def print_timings(text_detection_time, ocr_detection_time, spell_corrector_time,
     print("Regex Time: ", regex_time)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=8080)
